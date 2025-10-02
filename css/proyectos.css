@@ -77,3 +77,15 @@ footer {
 .navbar-custom .nav-link:hover{
     color: #00bfff !important;
 }
+
+.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 240px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px;
+    margin-top: 20px;
+}
+
