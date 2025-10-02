@@ -1,0 +1,119 @@
+.oculto{
+    display: none;
+}
+
+.mostrar-redes{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.mostrar-redes button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mostrar-redes button:hover{
+    background-color: #0056b3;
+}
+
+.tarjeta {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #7ad3be;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.tarjeta h2{
+    margin-bottom: 15px;
+    color: #006d46
+}
+.tarjeta .btn{
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    text-align: center;
+}
+
+.instagram{
+    background-color: #DDA0DD;
+    border-color: #DDA0DD;
+}
+
+.twitter{
+    background-color: black;
+    border-color: black;
+}
+
+.whatsapp{
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.tarjeta .btn:hover{
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+body{
+    background-color: #bdffff;
+}
+
+.footer-contacto{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #555;
+}
+
+.navbar-custom {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background-color: #006d46;
+} 
+
+.navbar-custom .navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7ad3be;
+}
+
+.navbar-custom .navbar-link{
+    color: darkblue !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover{
+    color: #00bfff !important;
+}
+
+.contacto{
+    padding-top: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+.contacto #nosotros{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #00774f;
+}

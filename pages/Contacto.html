@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark border-bottom navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">Contacto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="contacto">
+    <p id="nosotros">Contactate con nosotros.</p>
+    <p id="texto">Puedes contactarte conmigo detallando tus datos y tu solicitud o contactarte directamente a traves de mis redes sociales.</p>
+    </section>
+
+    <div class="container my-5">
+        <section id="contacto" class="card p-4 shadow-sm">
+            <h2 class="mb-3">Contacto</h2>
+            <p>Complete el siguiente formulario para enviarme un mensaje:</p>
+
+            <form id="contacto-form">
+                <label for="nombre" class="form-label">Nombre: </label><br>
+                <input type="text" id="nombre" name="nombre" class="form-control" required><br>
+
+                <label for="email" class="form-label">Email: </label><br>
+                <input type="email" id="email" name="email" class="form-control" required><br>
+
+                <label for="asunto" class="form-label">Asunto: </label><br>
+                <input type="text" id="asunto" name="asunto" class="form-control" required><br>
+
+                <label for="mensaje" class="form-label">Mensaje: </label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="30" class="form-control" required></textarea><br>
+
+                <input type="submit" class="btn btn-primary" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <!--Redes Sociales-->
+    <div class ="mostrar-redes">
+        <button id="btn-redes">Mostrar Redes Sociales</button>
+    </div>
+    <div class="tarjeta oculto" id="redes-sociales">
+        <h2>Mis redes sociales:</h2>
+        <a href="#" class="btn whatsapp "> Whatsapp </a>
+        <a href="#" class="btn twitter"> Twitter</a>
+        <a href="#" class="btn instagram"> Instagram</a>
+    </div>
+
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <script type="module" src="../js/script.js"></script>
+        <script src="../js/script.js"></script>
+        <script type="module" src="../js/cxn.js"></script>
+        <script type="module" src="../js/contacto.js"></script>
+        <p class="footer-contacto">&copy; 2025 - Joaquin Panta. Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

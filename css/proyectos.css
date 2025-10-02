@@ -1,0 +1,79 @@
+body.proyectos {
+  background-color: #f0f9f7;
+  color: #000;
+}
+
+.proyectos-container {
+  margin-top: 100px; 
+}
+
+.proyectos-container h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #006d46;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card-proyecto {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card-proyecto:hover {
+  transform: translateY(-5px);
+}
+
+.card-proyecto.verde1 {
+  background-color: #00774f;
+}
+.card-proyecto.verde2 {
+  background-color: #008259;
+}
+.card-proyecto.verde3 {
+  background-color: #00986c;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  background-color: #006d46;
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+
+.navbar-custom {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background-color: #006d46;
+} 
+
+.navbar-custom .navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7ad3be;
+}
+
+.navbar-custom .navbar-link{
+    color: darkblue !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover{
+    color: #00bfff !important;
+}
